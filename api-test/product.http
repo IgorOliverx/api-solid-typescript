@@ -1,0 +1,47 @@
+###
+GET http://localhost:8080/products
+
+
+###
+POST http://localhost:8080/products/create
+Content-Type: application/json
+
+{
+    "name": "Product 1",
+    "price": 99.9
+}
+
+
+###
+POST http://localhost:8080/products/create
+Content-Type: application/json
+
+{
+    "name": "Produto 3",
+    "price": 109.9
+}
+
+
+
+###
+POST http://localhost:8080/products/{id}/buy
+Content-Type: application/json
+
+{
+    "amount": 100
+}
+
+
+
+###
+POST http://localhost:8080/products/{id}/sell
+Content-Type: application/json
+
+{
+    "amount": 25
+}
+
+
+
+
+
