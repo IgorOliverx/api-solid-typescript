@@ -14,8 +14,6 @@
  - TYPESCRIPT
 
 
-### Inicialização do projeto
 
-        npm init -y
-        npm install typescript ts-node @types/node --save-dev
-        npx tsc --init
+Referência:
+<a href="https://www.youtube.com/watch?v=RY0BQV803UU">Vídeo</a>
